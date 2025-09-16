@@ -8,10 +8,11 @@ import Login from "./pages/Login";
 import CreatePayment from "./pages/CreatePayment";
 import Transactions from "./pages/Transactions";
 import TransactionsBySchool from "./pages/TransactionsBySchool";
+import SuccessfulPayment from "./pages/SuccessfullPayment";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="min-h-screen bg-gray-50">
         {/* Routes */}
         <main className="p-6">
@@ -52,6 +53,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
+            <Route path="/payment-success" element={<SuccessfulPayment />} />
             <Route
               path="/transactionsBySchool"
               element={

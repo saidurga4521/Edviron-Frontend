@@ -58,7 +58,6 @@ const CheckStatus = () => {
       const response = await paymentStatus(collectId);
       const paymentStatusDetials = response?.data?.data;
       setTransaction(paymentStatusDetials);
-      console.log("the response", paymentStatusDetials);
       setOrderId(collectId);
       setisLoading(false);
     } catch (error) {
