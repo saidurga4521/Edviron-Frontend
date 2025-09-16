@@ -1,7 +1,7 @@
 import React from "react";
 import { Navigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import { getAuthToken } from "../helpers/Localstorage";
+import { getAuthToken } from "../helpers/localstorage";
 
 const ProtectedRoute = ({ children, isPublic = false }) => {
   const token = getAuthToken();
