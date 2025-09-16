@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import SchoolTransactions from "./pages/SchoolTransactions";
 import StatusCheck from "./pages/StatusCheck";
@@ -12,7 +12,7 @@ import SuccessfulPayment from "./pages/SuccessfullPayment";
 
 function App() {
   return (
-    <Router basename="/">
+    <BrowserRouter basename="/">
       <div className="min-h-screen bg-gray-50">
         {/* Routes */}
         <main className="p-6">
@@ -89,7 +89,7 @@ function App() {
           </Routes>
         </main>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
