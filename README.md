@@ -1,4 +1,48 @@
+# Paysphere – Payment Gateway Integration & Transaction Management
 
+Paysphere is a full-stack payment management system that integrates with Edviron’s payment gateway to process secure online transactions. It provides a smooth flow for initiating payments, validating responses, and tracking transaction statuses with a user-friendly dashboard.
+
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express,MongoDB,Webhooks
+## Installation
+
+### 🚀 Project Setup
+
+### Prerequisites
+- Node.js
+- npm 
+- MongoDB
+- React
+
+### Install my-project with npm
+#### Frontend
+  - cd edupay
+  - npm i
+  - npm run dev
+
+#### Backend
+  - npm run dev
+  - 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+```
+`API_KEY`
+`ANOTHER_API_KEY`
+`PORT`
+`FRONTEND_URL`
+`CALLBACK_URL`
+`JWT_SECRET_KEY`
+`JWT_EXPIRY=7d`
+`SCHOOL_ID` 
+`PG_SECRET`
+`API_KEY`
+`PG_URL`
+`MONGODB_URI`
+```
 ## Functionalties
 
 ### Login
