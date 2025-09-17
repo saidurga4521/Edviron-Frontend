@@ -56,6 +56,16 @@ To run this project, you will need to add the following environment variables to
 <img width="1854" height="599" alt="Screenshot 2025-09-17 122639" src="https://github.com/user-attachments/assets/78e3aa74-e39c-42bb-89e7-fb94e19f2711" />
 <img width="1710" height="852" alt="Screenshot 2025-09-17 132817" src="https://github.com/user-attachments/assets/06345dfe-f468-40bd-810d-e92be7428762" />
 
+### Schools 
+<img width="1856" height="897" alt="Screenshot 2025-09-17 122727" src="https://github.com/user-attachments/assets/c1ba8ac3-fd3d-4e53-bff3-9a622836b9d9" />
+
+### Check Status
+<img width="1817" height="905" alt="Screenshot 2025-09-17 122756" src="https://github.com/user-attachments/assets/89364675-b836-468a-9f34-3f64974dd621" />
+
+### Create payment
+<img width="1863" height="880" alt="Screenshot 2025-09-17 122842" src="https://github.com/user-attachments/assets/6d892405-38db-43fa-9de0-7ccc96e6b6ce" />
+<img width="1827" height="844" alt="Screenshot 2025-09-17 122905" src="https://github.com/user-attachments/assets/123a0a56-5e8a-408e-b09f-851bd3c57400" />
+
 
 
 ## Functionalties
