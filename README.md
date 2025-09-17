@@ -43,6 +43,21 @@ To run this project, you will need to add the following environment variables to
 `PG_URL`
 `MONGODB_URI`
 ```
+
+## Screeshorts
+
+### SignUp
+<img width="1892" height="924" alt="Screenshot 2025-09-17 121353" src="https://github.com/user-attachments/assets/4f89e977-c7fe-4fd3-9d88-fcd4d7f99d06" />
+
+### Login
+<img width="1879" height="947" alt="Screenshot 2025-09-17 121414" src="https://github.com/user-attachments/assets/2d38b3b5-387a-4370-a3b2-c6ce5efb0130" />
+
+### DashBoard
+<img width="1854" height="599" alt="Screenshot 2025-09-17 122639" src="https://github.com/user-attachments/assets/78e3aa74-e39c-42bb-89e7-fb94e19f2711" />
+<img width="1710" height="852" alt="Screenshot 2025-09-17 132817" src="https://github.com/user-attachments/assets/06345dfe-f468-40bd-810d-e92be7428762" />
+
+
+
 ## Functionalties
 
 ### Login
@@ -94,4 +109,27 @@ To run this project, you will need to add the following environment variables to
 
 - Allows admins/trustees to drill down into transaction history for each school.
 - Ensures clear tracking of fees collected per institution, making audits and reports easy.
+```
+
+## Scope and Extension
+
+- While Paysphere already covers core payment and school management features, there is plenty of room to scale and enhance the platform in the future:
+
+### Multi-Currency & International Payments
+```
+- Expand beyond INR and enable payments in multiple currencies - - - (USD, EUR, etc.), along with real-time conversion. 
+This would make the platform usable for international schools.
+```
+### Notifications & Reminders
+```
+- Integrate email, SMS, or push notifications to remind parents about pending payments and confirm successful transactions, improving communication and reducing defaults.
+```
+### Advanced Analytics Dashboard
+```
+-Introduce a visual analytics dashboard with charts and graphs that highlight fee collection trends, payment delays, and school-wise performance insights.
+```
+### Role-based Dashboards
+
+```
+- Enhance role management with separate dashboards for trustees, school admins, and parents/students, ensuring tailored access to only relevant data and actions.
 ```
