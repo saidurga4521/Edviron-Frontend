@@ -1,12 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Functionalties
 
-Currently, two official plugins are available:
+### Login
+```
+- The Login page provides secure authentication for users
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Uses JWT tokens for authentication and session management.
 
-## Expanding the ESLint configuration
+- Validates credentials and redirects users to the correct dashboard based on their role.
+-  This ensures only authorized users can access the platform and gives each role a personalized experience.
+```
+### CreatePayment
+```
+- The Create Payment page allows admins to initiate fee payment requests for students.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Admin selects the student info, enters payment details, and sends a request.
+
+- The system generates a payment link and records the transaction.
+- This makes it easy for schools to collect fees digitally instead of handling manual payments.
+```
+### CheckStatus.jsx
+```
+- The Check Status page lets users track the status of payment requests.
+
+- Shows whether a payment is Pending, Successful, or Failed.
+
+- Provides transaction details for transparency.
+- Parents and admins can quickly verify payment progress without confusion or delays.
+```
+### Dashboard.jsx
+
+- The Dashboard acts as the control center for trustees
+
+``` 
+   Total transactions
+
+   Successful, pending, failed payments
+
+   Total collected amount 
+```
+- Provides a quick overview of financial performance.
+- This helps schools monitor revenue and payment health at a glance.
+
+### SchoolTransactions.jsx
+```
+- The School Transactions page lists all transactions for a specific school.
+
+- Supports search and filtering by student, date, or payment status.
+
+- Allows admins/trustees to drill down into transaction history for each school.
+- Ensures clear tracking of fees collected per institution, making audits and reports easy.
+```
