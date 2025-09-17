@@ -68,10 +68,26 @@ const Login = () => {
         <h2 className="text-2xl font-bold text-center text-purple-700 mb-2">
           Welcome Back
         </h2>
-        <p className="text-sm text-gray-500 text-center mb-6">
-          Login to continue
-        </p>
+        <div className="text-center mb-6">
+          <p className="text-sm text-gray-500">Login to continue</p>
 
+          <p className="text-sm text-gray-500 mt-3">
+            Use dummy credentials to login
+          </p>
+
+          <div className="mt-3 inline-block bg-gray-50 border border-gray-200 rounded-lg px-4 py-2 text-left">
+            <div className="text-sm text-gray-500">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold">Email:</span>
+                <span className="font-mono">saikamireddi3@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="font-semibold">Password:</span>
+                <span className="font-mono">452145</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Email */}
           <div>
