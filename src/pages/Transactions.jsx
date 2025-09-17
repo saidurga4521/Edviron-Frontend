@@ -48,7 +48,7 @@ const Transactions = ({ transactions }) => {
     search: "",
   });
 
-  const limit = 3;
+  const limit = 5;
 
   const loadTransactions = () => {
     try {
