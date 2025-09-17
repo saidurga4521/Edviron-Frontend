@@ -1,7 +1,4 @@
-# Paysphere – Payment Gateway Integration & Transaction Management
-
-## 🔗 Live Demo  
-[![Live Demo](https://img.shields.io/badge/View_App-000?style=for-the-badge&logo=vercel&logoColor=white)](https://edviron-frontend-7rel.vercel.app/)
+# Paysphere – Payment Gateway Integration & Transaction Management  [![Live Demo](https://img.shields.io/badge/View_App-000?style=for-the-badge&logo=vercel&logoColor=white)](https://edviron-frontend-7rel.vercel.app/)
 
 Paysphere is a full-stack payment management system that integrates with Edviron’s payment gateway to process secure online transactions. It provides a smooth flow for initiating payments, validating responses, and tracking transaction statuses with a user-friendly dashboard.
 
